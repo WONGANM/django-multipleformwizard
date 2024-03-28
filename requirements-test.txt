@@ -1,4 +1,4 @@
-Django>=1.6
+Django>=3.2.25
 six>=1.9.0
 coverage
 coveralls
@@ -8,3 +8,5 @@ django-nose>=1.2
 django-formtools==1.0
 flake8>=2.1.0
 tox>=1.7.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
