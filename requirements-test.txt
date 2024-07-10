@@ -8,3 +8,4 @@ django-nose>=1.2
 django-formtools==1.0
 flake8>=2.1.0
 tox>=1.7.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
